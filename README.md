@@ -1,4 +1,4 @@
-# sqflite_for_aurora_a
+# sqflite_for_aurora_example
 
 A new Flutter project.
 
