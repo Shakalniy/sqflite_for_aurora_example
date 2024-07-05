@@ -1,0 +1,32 @@
+name: hive_for_aurora_a
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.3.0
+  sqflite_aurora:
+    git:
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+      ref: sqflite_aurora-0.5.0
+      path: packages/sqflite/sqflite_aurora
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+

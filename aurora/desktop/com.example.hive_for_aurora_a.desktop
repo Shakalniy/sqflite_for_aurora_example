@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=hive_for_aurora_a
+Comment=A new Flutter project.
+Icon=com.example.hive_for_aurora_a
+Exec=/usr/bin/com.example.hive_for_aurora_a
+X-Nemo-Application-Type=silica-qt5
+
+[X-Application]
+Permissions=UserDirs
+OrganizationName=com.example
+ApplicationName=hive_for_aurora_a
