@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     String name = nameController.text.trim();
     var value = int.parse(valueController.text.trim());
-    var num = double.parse(valueController.text.trim());
+    var num = double.parse(numController.text.trim());
     if (name.isNotEmpty) {
       // Insert some records in a transaction
       await database.transaction((txn) async {
